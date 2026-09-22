@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17243a">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="ナンバーズ3を1日1口だけ記録・分析する個人用Webアプリ">
+  <title>Numbers 3 — 1日1口</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>Numbers 3</h1>
+      <p>ストレート・1抽せん1口</p>
+    </div>
+    <button id="refresh-button" class="icon-button" aria-label="最新データを確認" title="最新データを確認">↻</button>
+  </header>
+
+  <main>
+    <div id="message" class="message" hidden></div>
+
+    <section class="summary" aria-label="データ概要">
+      <div><span>保存結果</span><strong id="result-count">—</strong></div>
+      <div><span>最新回</span><strong id="latest-draw">—</strong></div>
+      <div><span>抽せん日</span><strong id="latest-date">—</strong></div>
+    </section>
+
+    <nav class="tabs" aria-label="画面切り替え">
+      <button class="tab active" data-tab="today">本命</button>
+      <button class="tab" data-tab="analysis">分析</button>
+      <button class="tab" data-tab="history">予想と収支</button>
+      <button class="tab" data-tab="data">データ</button>
+    </nav>
+
+    <section id="today" class="panel active"></section>
+    <section id="analysis" class="panel"></section>
+    <section id="history" class="panel"></section>
+    <section id="data" class="panel"></section>
+  </main>
+
+  <footer>
+    <p>過去の傾向は次回の当せんを保証しません。購入はご自身の判断で行ってください。</p>
+  </footer>
+
+  <input id="restore-file" type="file" accept="application/json" hidden>
+  <script src="app.js" defer></script>
+</body>
+</html>

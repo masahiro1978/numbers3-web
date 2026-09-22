@@ -1,0 +1,9 @@
+{
+  "name":"Numbers 3 — 1日1口",
+  "short_name":"Numbers 3",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f5f7fa",
+  "theme_color":"#17243a",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
