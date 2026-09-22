@@ -1,1 +1,133 @@
-import base64;exec(compile(base64.b64decode("IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJVcGRhdGUgcHVibGljIE51bWJlcnMgMyBmYWN0cyBmcm9tIHR3byBvZmZpY2lhbCBiYW5rIHNvdXJjZXMuCgpPbmUgcmVxdWVzdCBpcyBzZW50IHRvIGVhY2ggc291cmNlLiAgQWNjZXNzIHJlc3RyaWN0aW9ucyBhcmUgbmV2ZXIgcmV0cmllZCBvcgpieXBhc3NlZC4gIFRoZSBvdXRwdXQgaXMgcmVwbGFjZWQgb25seSB3aGVuIG92ZXJsYXBwaW5nIGRyYXcvZGF0ZS9udW1iZXIgZmFjdHMKbWF0Y2ggYW5kIHRoZSB2ZXJpZmllZCBsYXRlc3QgZHJhdyBhZHZhbmNlcy4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBjc3YKaW1wb3J0IGh0bWwKaW1wb3J0IGlvCmltcG9ydCBqc29uCmltcG9ydCByZQpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZXpvbmUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gdXJsbGliLmVycm9yIGltcG9ydCBIVFRQRXJyb3IsIFVSTEVycm9yCmZyb20gdXJsbGliLnJlcXVlc3QgaW1wb3J0IFJlcXVlc3QsIHVybG9wZW4KClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQpPVVRQVVQgPSBST09UIC8gImRhdGEvcmVzdWx0cy5qc29uIgpQQVlQQVlfVVJMID0gImh0dHBzOi8vbG9naW4ucGF5cGF5LWJhbmsuY28uanAvbG90dGVyeS9jby9udW1iZXJzM2puYi5jc3YiClJBS1VURU5fVVJMID0gImh0dHBzOi8vdGFrYXJha3VqaS5yYWt1dGVuLmNvLmpwL2JhY2tudW1iZXIvbnVtYmVyczMvIgpVQSA9ICJOdW1iZXJzM1dlYi8wLjEgKHB1YmxpYyBsb3R0ZXJ5IGZhY3RzOyB0d28tb2ZmaWNpYWwtc291cmNlIHZlcmlmaWNhdGlvbikiCgoKZGVmIGRvd25sb2FkKHVybDogc3RyLCBsYWJlbDogc3RyKSAtPiBieXRlczoKICAgIHJlcXVlc3QgPSBSZXF1ZXN0KHVybCwgaGVhZGVycz17IlVzZXItQWdlbnQiOiBVQSwgIkFjY2VwdCI6ICJ0ZXh0L2Nzdix0ZXh0L2h0bWw7cT0wLjksKi8qO3E9MC4xIn0pCiAgICB0cnk6CiAgICAgICAgd2l0aCB1cmxvcGVuKHJlcXVlc3QsIHRpbWVvdXQ9MzApIGFzIHJlc3BvbnNlOgogICAgICAgICAgICBpZiByZXNwb25zZS5zdGF0dXMgIT0gMjAwOgogICAgICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYie2xhYmVsfTogSFRUUCB7cmVzcG9uc2Uuc3RhdHVzfSIpCiAgICAgICAgICAgIGNvbnRlbnQgPSByZXNwb25zZS5yZWFkKDEwICogMTAyNCAqIDEwMjQgKyAxKQogICAgZXhjZXB0IEhUVFBFcnJvciBhcyBleGM6CiAgICAgICAgaWYgZXhjLmNvZGUgaW4gKDQwMywgNDI5KToKICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYie2xhYmVsfTogSFRUUCB7ZXhjLmNvZGV9OyBhY2Nlc3MgcmVzdHJpY3Rpb24sIHN0b3BwaW5nIHdpdGhvdXQgcmV0cnkiKSBmcm9tIGV4YwogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihmIntsYWJlbH06IEhUVFAge2V4Yy5jb2RlfSIpIGZyb20gZXhjCiAgICBleGNlcHQgVVJMRXJyb3IgYXMgZXhjOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihmIntsYWJlbH06IGNvbm5lY3Rpb24gZmFpbGVkOiB7ZXhjLnJlYXNvbn0iKSBmcm9tIGV4YwogICAgaWYgbGVuKGNvbnRlbnQpID4gMTAgKiAxMDI0ICogMTAyNDoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZiJ7bGFiZWx9OiByZXNwb25zZSB0b28gbGFyZ2UiKQogICAgcmV0dXJuIGNvbnRlbnQKCgpkZWYgcGFyc2VfcGF5cGF5KGNvbnRlbnQ6IGJ5dGVzKSAtPiBsaXN0W2RpY3RdOgogICAgcmVhZGVyID0gY3N2LkRpY3RSZWFkZXIoaW8uU3RyaW5nSU8oY29udGVudC5kZWNvZGUoImNwOTMyIikpKQogICAgcGF5b3V0X2hlYWRlciA9ICLjgJDjgrnjg4jjg6zjg7zjg4jjgJHlvZPjgZvjgpPph5HpoY3vvIjljZjkvY3vvJrlhobvvIkiCiAgICByZXF1aXJlZCA9IHsi5Zue5Y+3IiwgIuaKveOBm+OCk+aXpSIsICLmir3jgZvjgpPmlbDlrZciLCBwYXlvdXRfaGVhZGVyfQogICAgaWYgbm90IHJlcXVpcmVkIDw9IHNldChyZWFkZXIuZmllbGRuYW1lcyBvciBbXSk6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJQYXlQYXkgQmFuayBDU1YgY29sdW1ucyBjaGFuZ2VkIikKICAgIHJvd3MgPSBbXQogICAgZm9yIHJvdyBpbiByZWFkZXI6CiAgICAgICAgZHJhd19tYXRjaCA9IHJlLmZ1bGxtYXRjaChyIuesrChbMC05XSsp5ZueIiwgcm93WyLlm57lj7ciXS5zdHJpcCgpKQogICAgICAgIG51bWJlciA9IHJvd1si5oq944Gb44KT5pWw5a2XIl0uc3RyaXAoKQogICAgICAgIGlmIG5vdCBkcmF3X21hdGNoIG9yIG5vdCByZS5mdWxsbWF0Y2gociJbMC05XXszfSIsIG51bWJlcik6CiAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigiUGF5UGF5IEJhbmsgQ1NWIGNvbnRhaW5zIGFuIGludmFsaWQgZHJhdyBvciBudW1iZXIiKQogICAgICAgIHJvd3MuYXBwZW5kKHsKICAgICAgICAgICAgImRyYXciOiBpbnQoZHJhd19tYXRjaC5ncm91cCgxKSksCiAgICAgICAgICAgICJkYXRlIjogcm93WyLmir3jgZvjgpPml6UiXS5yZXBsYWNlKCIvIiwgIi0iKS5zdHJpcCgpLAogICAgICAgICAgICAibnVtYmVyIjogbnVtYmVyLAogICAgICAgICAgICAic3RyYWlnaHRQYXlvdXQiOiBpbnQocm93W3BheW91dF9oZWFkZXJdLnJlcGxhY2UoIiwiLCAiIikpLAogICAgICAgIH0pCiAgICByb3dzLnNvcnQoa2V5PWxhbWJkYSBpdGVtOiBpdGVtWyJkcmF3Il0pCiAgICBmb3IgYmVmb3JlLCBhZnRlciBpbiB6aXAocm93cywgcm93c1sxOl0pOgogICAgICAgIGlmIGFmdGVyWyJkcmF3Il0gIT0gYmVmb3JlWyJkcmF3Il0gKyAxOgogICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZiJQYXlQYXkgQmFuayBDU1YgaGFzIGEgZ2FwIGFmdGVyIGRyYXcge2JlZm9yZVsnZHJhdyddfSIpCiAgICBpZiBsZW4ocm93cykgPCAzMDoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoIlBheVBheSBCYW5rIENTViBoYXMgdG9vIGZldyByb3dzIikKICAgIHJldHVybiByb3dzCgoKZGVmIHBhcnNlX3Jha3V0ZW4oY29udGVudDogYnl0ZXMpIC0+IGxpc3RbZGljdF06CiAgICB0ZXh0ID0gY29udGVudC5kZWNvZGUoInV0Zi04IiwgInJlcGxhY2UiKQogICAgdGV4dCA9IHJlLnN1YihyIjwoc2NyaXB0fHN0eWxlKVxiW14+XSo+Lio/PC9cMT4iLCAiICIsIHRleHQsIGZsYWdzPXJlLkkgfCByZS5TKQogICAgdGV4dCA9IGh0bWwudW5lc2NhcGUocmUuc3ViKHIiPFtePl0rPiIsICIgIiwgdGV4dCkpCiAgICB0ZXh0ID0gcmUuc3ViKHIiXHMrIiwgIiAiLCB0ZXh0KQogICAgcGF0dGVybiA9IHJlLmNvbXBpbGUoCiAgICAgICAgciLlm57lj7dccyrnrKwoWzAtOV0rKeWbnlxzKuaKveOBm+OCk+aXpVxzKihbMC05XXs0fSkvKFswLTldezJ9KS8oWzAtOV17Mn0pXHMq5b2T44Gb44KT55Wq5Y+3XHMqKFswLTldezN9KSg/IVswLTldKSIKICAgICkKICAgIGZvdW5kID0gewogICAgICAgIGludChkcmF3KTogeyJkcmF3IjogaW50KGRyYXcpLCAiZGF0ZSI6IGYie3llYXJ9LXttb250aH0te2RheX0iLCAibnVtYmVyIjogbnVtYmVyfQogICAgICAgIGZvciBkcmF3LCB5ZWFyLCBtb250aCwgZGF5LCBudW1iZXIgaW4gcGF0dGVybi5maW5kYWxsKHRleHQpCiAgICB9CiAgICBpZiBub3QgZm91bmQ6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJSYWt1dGVuIHJlc3VsdCB0YWJsZSB3YXMgbm90IHJlY29nbml6ZWQiKQogICAgcmV0dXJuIFtmb3VuZFtrZXldIGZvciBrZXkgaW4gc29ydGVkKGZvdW5kKV0KCgpkZWYgYnVpbGQoKSAtPiBkaWN0OgogICAgcGF5cGF5ID0gcGFyc2VfcGF5cGF5KGRvd25sb2FkKFBBWVBBWV9VUkwsICJQYXlQYXkgQmFuayIpKQogICAgcmFrdXRlbiA9IHBhcnNlX3Jha3V0ZW4oZG93bmxvYWQoUkFLVVRFTl9VUkwsICJSYWt1dGVuIikpCiAgICBwYXlwYXlfYnlfZHJhdyA9IHtyb3dbImRyYXciXTogcm93IGZvciByb3cgaW4gcGF5cGF5fQogICAgcmFrdXRlbl9ieV9kcmF3ID0ge3Jvd1siZHJhdyJdOiByb3cgZm9yIHJvdyBpbiByYWt1dGVufQogICAgb3ZlcmxhcCA9IHNvcnRlZChzZXQocGF5cGF5X2J5X2RyYXcpICYgc2V0KHJha3V0ZW5fYnlfZHJhdykpCiAgICBpZiBub3Qgb3ZlcmxhcDoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoIlRoZSB0d28gb2ZmaWNpYWwgc291cmNlcyBoYXZlIG5vIG92ZXJsYXBwaW5nIGRyYXdzIikKICAgIGZvciBkcmF3IGluIG92ZXJsYXA6CiAgICAgICAgcGF5cGF5X2ZhY3QgPSB7a2V5OiBwYXlwYXlfYnlfZHJhd1tkcmF3XVtrZXldIGZvciBrZXkgaW4gKCJkcmF3IiwgImRhdGUiLCAibnVtYmVyIil9CiAgICAgICAgaWYgcGF5cGF5X2ZhY3QgIT0gcmFrdXRlbl9ieV9kcmF3W2RyYXddOgogICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZiJPZmZpY2lhbCBzb3VyY2VzIGRpc2FncmVlIGF0IGRyYXcge2RyYXd9OyBvdXRwdXQgdW5jaGFuZ2VkIikKICAgIHZlcmlmaWVkX2xhdGVzdCA9IG1heChvdmVybGFwKQogICAgcmVzdWx0cyA9IFtyb3cgZm9yIHJvdyBpbiBwYXlwYXkgaWYgcm93WyJkcmF3Il0gPD0gdmVyaWZpZWRfbGF0ZXN0XQogICAgaWYgcmVzdWx0c1stMV1bImRyYXciXSAhPSB2ZXJpZmllZF9sYXRlc3Q6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJWZXJpZmllZCBsYXRlc3QgZHJhdyBpcyBtaXNzaW5nIGZyb20gb3V0cHV0IikKICAgIHJldHVybiB7CiAgICAgICAgInNjaGVtYSI6IDEsCiAgICAgICAgInVwZGF0ZWRBdCI6IGRhdGV0aW1lLm5vdyh0aW1lem9uZS51dGMpLmlzb2Zvcm1hdCgpLAogICAgICAgICJ2ZXJpZmllZExhdGVzdERyYXciOiB2ZXJpZmllZF9sYXRlc3QsCiAgICAgICAgIm92ZXJsYXBDaGVja2VkIjogbGVuKG92ZXJsYXApLAogICAgICAgICJzb3VyY2VzIjogWwogICAgICAgICAgICB7Im5hbWUiOiAiUGF5UGF56YqA6KGMIiwgInVybCI6IFBBWVBBWV9VUkx9LAogICAgICAgICAgICB7Im5hbWUiOiAi5qW95aSpw5flrp3jgY/jgZgiLCAidXJsIjogUkFLVVRFTl9VUkx9LAogICAgICAgIF0sCiAgICAgICAgInJlc3VsdHMiOiByZXN1bHRzLAogICAgfQoKCmRlZiBtYWluKCkgLT4gTm9uZToKICAgIHBheWxvYWQgPSBidWlsZCgpCiAgICBpZiBPVVRQVVQuZXhpc3RzKCk6CiAgICAgICAgY3VycmVudCA9IGpzb24ubG9hZHMoT1VUUFVULnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgICAgICBpZiBjdXJyZW50LmdldCgicmVzdWx0cyIpID09IHBheWxvYWRbInJlc3VsdHMiXToKICAgICAgICAgICAgcHJpbnQoZiJObyBuZXcgdmVyaWZpZWQgZHJhdzsgbGF0ZXN0IGlzIHtwYXlsb2FkWyd2ZXJpZmllZExhdGVzdERyYXcnXX0iKQogICAgICAgICAgICByZXR1cm4KICAgIE9VVFBVVC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgdGVtcG9yYXJ5ID0gT1VUUFVULndpdGhfc3VmZml4KCIudG1wIikKICAgIHRlbXBvcmFyeS53cml0ZV90ZXh0KGpzb24uZHVtcHMocGF5bG9hZCwgZW5zdXJlX2FzY2lpPUZhbHNlLCBzZXBhcmF0b3JzPSgiLCIsICI6IikpICsgIlxuIiwgZW5jb2Rpbmc9InV0Zi04IikKICAgIHRlbXBvcmFyeS5yZXBsYWNlKE9VVFBVVCkKICAgIHByaW50KGYiUHVibGlzaGVkIHtsZW4ocGF5bG9hZFsncmVzdWx0cyddKX0gcm93cyB0aHJvdWdoIGRyYXcge3BheWxvYWRbJ3ZlcmlmaWVkTGF0ZXN0RHJhdyddfSIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo="),__file__,'exec'))
+#!/usr/bin/env python3
+"""Update public Numbers 3 facts from two official bank sources.
+
+One request is sent to each source.  Access restrictions are never retried or
+bypassed.  The output is replaced only when overlapping draw/date/number facts
+match and the verified latest draw advances.
+"""
+from __future__ import annotations
+
+import csv
+import html
+import io
+import json
+import re
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT = ROOT / "data/results.json"
+PAYPAY_URL = "https://login.paypay-bank.co.jp/lottery/co/numbers3jnb.csv"
+RAKUTEN_URL = "https://takarakuji.rakuten.co.jp/backnumber/numbers3/"
+UA = "Numbers3Web/0.1 (public lottery facts; two-official-source verification)"
+
+
+def download(url: str, label: str) -> bytes:
+    request = Request(url, headers={"User-Agent": UA, "Accept": "text/csv,text/html;q=0.9,*/*;q=0.1"})
+    try:
+        with urlopen(request, timeout=30) as response:
+            if response.status != 200:
+                raise RuntimeError(f"{label}: HTTP {response.status}")
+            content = response.read(10 * 1024 * 1024 + 1)
+    except HTTPError as exc:
+        if exc.code in (403, 429):
+            raise RuntimeError(f"{label}: HTTP {exc.code}; access restriction, stopping without retry") from exc
+        raise RuntimeError(f"{label}: HTTP {exc.code}") from exc
+    except URLError as exc:
+        raise RuntimeError(f"{label}: connection failed: {exc.reason}") from exc
+    if len(content) > 10 * 1024 * 1024:
+        raise RuntimeError(f"{label}: response too large")
+    return content
+
+
+def parse_paypay(content: bytes) -> list[dict]:
+    reader = csv.DictReader(io.StringIO(content.decode("cp932")))
+    payout_header = "【ストレート】当せん金額（単位：円）"
+    required = {"回号", "抽せん日", "抽せん数字", payout_header}
+    if not required <= set(reader.fieldnames or []):
+        raise RuntimeError("PayPay Bank CSV columns changed")
+    rows = []
+    for row in reader:
+        draw_match = re.fullmatch(r"第([0-9]+)回", row["回号"].strip())
+        number = row["抽せん数字"].strip()
+        if not draw_match or not re.fullmatch(r"[0-9]{3}", number):
+            raise RuntimeError("PayPay Bank CSV contains an invalid draw or number")
+        rows.append({
+            "draw": int(draw_match.group(1)),
+            "date": row["抽せん日"].replace("/", "-").strip(),
+            "number": number,
+            "straightPayout": int(row[payout_header].replace(",", "")),
+        })
+    rows.sort(key=lambda item: item["draw"])
+    for before, after in zip(rows, rows[1:]):
+        if after["draw"] != before["draw"] + 1:
+            raise RuntimeError(f"PayPay Bank CSV has a gap after draw {before['draw']}")
+    if len(rows) < 30:
+        raise RuntimeError("PayPay Bank CSV has too few rows")
+    return rows
+
+
+def parse_rakuten(content: bytes) -> list[dict]:
+    text = content.decode("utf-8", "replace")
+    text = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", text, flags=re.I | re.S)
+    text = html.unescape(re.sub(r"<[^>]+>", " ", text))
+    text = re.sub(r"\s+", " ", text)
+    pattern = re.compile(
+        r"回号\s*第([0-9]+)回\s*抽せん日\s*([0-9]{4})/([0-9]{2})/([0-9]{2})\s*当せん番号\s*([0-9]{3})(?![0-9])"
+    )
+    found = {
+        int(draw): {"draw": int(draw), "date": f"{year}-{month}-{day}", "number": number}
+        for draw, year, month, day, number in pattern.findall(text)
+    }
+    if not found:
+        raise RuntimeError("Rakuten result table was not recognized")
+    return [found[key] for key in sorted(found)]
+
+
+def build() -> dict:
+    paypay = parse_paypay(download(PAYPAY_URL, "PayPay Bank"))
+    rakuten = parse_rakuten(download(RAKUTEN_URL, "Rakuten"))
+    paypay_by_draw = {row["draw"]: row for row in paypay}
+    rakuten_by_draw = {row["draw"]: row for row in rakuten}
+    overlap = sorted(set(paypay_by_draw) & set(rakuten_by_draw))
+    if not overlap:
+        raise RuntimeError("The two official sources have no overlapping draws")
+    for draw in overlap:
+        paypay_fact = {key: paypay_by_draw[draw][key] for key in ("draw", "date", "number")}
+        if paypay_fact != rakuten_by_draw[draw]:
+            raise RuntimeError(f"Official sources disagree at draw {draw}; output unchanged")
+    verified_latest = max(overlap)
+    results = [row for row in paypay if row["draw"] <= verified_latest]
+    if results[-1]["draw"] != verified_latest:
+        raise RuntimeError("Verified latest draw is missing from output")
+    return {
+        "schema": 1,
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
+        "verifiedLatestDraw": verified_latest,
+        "overlapChecked": len(overlap),
+        "sources": [
+            {"name": "PayPay銀行", "url": PAYPAY_URL},
+            {"name": "楽天×宝くじ", "url": RAKUTEN_URL},
+        ],
+        "results": results,
+    }
+
+
+def main() -> None:
+    payload = build()
+    if OUTPUT.exists():
+        current = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        if current.get("results") == payload["results"]:
+            print(f"No new verified draw; latest is {payload['verifiedLatestDraw']}")
+            return
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    temporary = OUTPUT.with_suffix(".tmp")
+    temporary.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    temporary.replace(OUTPUT)
+    print(f"Published {len(payload['results'])} rows through draw {payload['verifiedLatestDraw']}")
+
+
+if __name__ == "__main__":
+    main()
