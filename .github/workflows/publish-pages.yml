@@ -1,1 +1,67 @@
-name: Placeholder
+name: Update data and publish GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 21:30 JST, Monday through Friday (Japan does not use daylight saving time)
+    - cron: "30 12 * * 1-5"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        if: github.event_name != 'push'
+        with:
+          python-version: "3.13"
+
+      - name: Fetch and verify two official sources
+        if: github.event_name != 'push'
+        run: python tools/update_results.py
+
+      - name: Commit only a newly verified draw
+        if: github.event_name != 'push'
+        run: |
+          if git diff --quiet -- data/results.json; then
+            echo "No verified change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/results.json
+          git commit -m "Update verified Numbers 3 results"
+          git push
+
+      - name: Prepare the public site
+        run: |
+          mkdir _site
+          cp index.html styles.css app.js manifest.webmanifest icon.svg sw.js robots.txt _site/
+          cp -R data _site/data
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publish GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
